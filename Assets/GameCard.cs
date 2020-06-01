@@ -198,6 +198,7 @@ public class GameCard : MonoBehaviour
         GameControl.activePlayer.balance -= domPrice[domCount];
         domCount += 1;
         UpdateCardGroupAndButtons();
+        owner.updateInofBalance();
     }
 
     public void SellDom()
@@ -216,6 +217,7 @@ public class GameCard : MonoBehaviour
         }
 
         UpdateCardGroupAndButtons();
+        owner.updateInofBalance();
     }
 
     private void UpdateCardGroupAndButtons()
