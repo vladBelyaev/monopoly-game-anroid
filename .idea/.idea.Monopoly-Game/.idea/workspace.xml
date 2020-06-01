@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d7b9acf1-69f8-41de-b906-5ad240f2f5d6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/GameCard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Card.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0F484EE2-1326-4EBC-8176-4F2BDB13F359/2e/1491605f/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CardGroup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EndGame.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../PatriaPolio/PatriaPolio BOT/Assets/Scripts/Classes/startGame.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/21BBF68D-61D6-4A2A-A5C3-E180E6B6706D/5b/a6434a62/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Dice.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GameControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4BEC26B5-CBC7-4715-8442-F1499E984732/bd/2524e332/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Masking.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Menu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0F484EE2-1326-4EBC-8176-4F2BDB13F359/41/ac64653a/Debug.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Shaders/TMPro.cginc" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PlayerInfo.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/MenuButtons.cs" />
+        <option value="$PROJECT_DIR$/Assets/Menu.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlayerInfo.cs" />
+        <option value="$PROJECT_DIR$/Assets/CardGroup.cs" />
+        <option value="$PROJECT_DIR$/Assets/EndGame.cs" />
+        <option value="$PROJECT_DIR$/Assets/Card.cs" />
+        <option value="$PROJECT_DIR$/Assets/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Dice.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameCard.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cV88drYVhJItBtPF2ay93p58Tm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="Rider.SolutionExplorerActivator" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d7b9acf1-69f8-41de-b906-5ad240f2f5d6" name="Default Changelist" comment="" />
+      <created>1590602242219</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590602242219</updated>
+      <workItem from="1590602249308" duration="1225000" />
+      <workItem from="1590647165453" duration="696000" />
+      <workItem from="1590684038342" duration="3905000" />
+      <workItem from="1590729853359" duration="2027000" />
+      <workItem from="1590735490478" duration="1266000" />
+      <workItem from="1590771527811" duration="3358000" />
+      <workItem from="1590820387181" duration="11919000" />
+      <workItem from="1590852547429" duration="520000" />
+      <workItem from="1590853152702" duration="2197000" />
+      <workItem from="1590904272608" duration="11447000" />
+      <workItem from="1590996426652" duration="7285000" />
+      <workItem from="1591012751938" duration="856000" />
+      <workItem from="1591020997520" duration="2765000" />
+      <workItem from="1591024602253" duration="735000" />
+      <workItem from="1591027970512" duration="2134000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="WindowStateProjectService">
+    <state x="1114" y="415" key="RiderGenerateDialog" timestamp="1590841899700">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1114" y="415" key="RiderGenerateDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1590841899700" />
+    <state x="958" y="298" width="644" height="804" key="find.popup" timestamp="1591028426692">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="958" y="298" width="644" height="804" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1591028426692" />
+    <state x="936" y="330" key="run.anything.popup" timestamp="1591024737321">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="936" y="330" key="run.anything.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1591024737321" />
+  </component>
+</project>
