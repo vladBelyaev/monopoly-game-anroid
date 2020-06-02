@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7b9acf1-69f8-41de-b906-5ad240f2f5d6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Monopoly-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Monopoly-Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dice.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dice.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameCard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameCard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/5e/5e2e3034ff6f0528fd6c9e8b93dc6346" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptMapper" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptMapper" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/SpriteAtlasDatabase.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SpriteAtlasDatabase.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/47/47b0590c55e66e409fe09e67c8b89968.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/47/47b0590c55e66e409fe09e67c8b89968.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/50/501c6e55825dbe3c32304e0af1ba66b8.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/50/501c6e55825dbe3c32304e0af1ba66b8.json" afterDir="false" />
-    </list>
+    <list default="true" id="d7b9acf1-69f8-41de-b906-5ad240f2f5d6" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,8 +39,8 @@
         <option value="$PROJECT_DIR$/Assets/Card.cs" />
         <option value="$PROJECT_DIR$/Assets/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/GameControl.cs" />
-        <option value="$PROJECT_DIR$/Assets/Dice.cs" />
         <option value="$PROJECT_DIR$/Assets/GameCard.cs" />
+        <option value="$PROJECT_DIR$/Assets/Dice.cs" />
       </list>
     </option>
   </component>
@@ -114,7 +98,7 @@
       <workItem from="1591024602253" duration="735000" />
       <workItem from="1591027970512" duration="2134000" />
       <workItem from="1591032836336" duration="215000" />
-      <workItem from="1591073392814" duration="1136000" />
+      <workItem from="1591073392814" duration="1406000" />
     </task>
     <servers />
   </component>

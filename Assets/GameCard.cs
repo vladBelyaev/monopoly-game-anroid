@@ -50,7 +50,7 @@ public class GameCard : MonoBehaviour
 
         priceForReturn = price / 2;
         priceForReturnToPlayer = (int) (priceForReturn * 1.1);
-        returnToBankText = buyButtonObject.GetComponentInChildren<Text>();
+        returnToBankText = returnToBankButtonObject.GetComponentInChildren<Text>();
         returnToPlayerText = returnToPlayerButtonObject.GetComponentInChildren<Text>();
         buyDomText = buyDomButtonObject.GetComponentInChildren<Text>();
         sellDomText = sellDomButtonObject.GetComponentInChildren<Text>();
