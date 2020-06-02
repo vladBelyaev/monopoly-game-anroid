@@ -31,12 +31,15 @@ public class GameCard : MonoBehaviour
     [HideInInspector] public int returnTurnCount;
     [HideInInspector] public bool couldReturnToPlayer = false;
     [HideInInspector] public int domCount = 0;
+     private Text returnToBankText;
+     private Text returnToPlayerText;
+     private Text sellDomText;
+     private Text buyDomText;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        // gameCardCanvas.SetActive(false);
         currentRent = rent;
         ownerSpriteRender = ownerSpriteGameObject.GetComponent<SpriteRenderer>();
         houseSpriteRenders = new SpriteRenderer[houseSpriteGameObjects.Length];
@@ -44,20 +47,25 @@ public class GameCard : MonoBehaviour
         {
             houseSpriteRenders[i] = houseSpriteGameObjects[i].GetComponent<SpriteRenderer>();
         }
+
         priceForReturn = price / 2;
         priceForReturnToPlayer = (int) (priceForReturn * 1.1);
+        returnToBankText = buyButtonObject.GetComponentInChildren<Text>();
+        returnToPlayerText = returnToPlayerButtonObject.GetComponentInChildren<Text>();
+        buyDomText = buyDomButtonObject.GetComponentInChildren<Text>();
+        sellDomText = sellDomButtonObject.GetComponentInChildren<Text>();
         buyButtonObject.GetComponentInChildren<Text>().text = "Придбати -$" + price;
         buyButtonObject.GetComponentInChildren<Text>().fontSize = 20;
-        returnToBankButtonObject.GetComponentInChildren<Text>().text = "Закласти +$" + priceForReturn;
-        returnToBankButtonObject.GetComponentInChildren<Text>().fontSize = 20;
-        returnToPlayerButtonObject.GetComponentInChildren<Text>().text = "Викупити -$" + priceForReturnToPlayer;
-        returnToPlayerButtonObject.GetComponentInChildren<Text>().fontSize = 20;
+        returnToBankText.text = "Закласти +$" + priceForReturn;
+        returnToBankText.fontSize = 20;
+        returnToPlayerText.text = "Викупити -$" + priceForReturnToPlayer;
+        returnToPlayerText.fontSize = 20;
         returnToBankButtonObject.SetActive(false);
         returnToPlayerButtonObject.SetActive(false);
         buyDomButtonObject.SetActive(false);
         sellDomButtonObject.SetActive(false);
         domReturnPrice = new int[domPrice.Length];
-        
+
         for (int i = 0; i < domPrice.Length; ++i)
         {
             domReturnPrice[i] = domPrice[i] / 2;
@@ -72,24 +80,25 @@ public class GameCard : MonoBehaviour
         }
 
         GameControl.isCardAppear = true;
-        gameCardCanvas.SetActive(true);
         GameControl.diceButton.SetActive(false);
         GameControl.endTurnButton.SetActive(false);
         GameControl.bankrotButton.SetActive(false);
         GameControl.endGameButton.SetActive(false);
-        
+        buyButtonObject.SetActive(false);
+        sellDomButtonObject.SetActive(false);
+        buyDomButtonObject.SetActive(false);
+
         if (GameControl.activePlayer.Equals(owner))
         {
-                UpdateCardGroupAndButtons();
+            UpdateCardGroupAndButtons();
         }
         else
         {
-            buyButtonObject.SetActive(false);
-            sellDomButtonObject.SetActive(false);
-            buyButtonObject.SetActive(false);
             returnToBankButtonObject.SetActive(false);
             returnToPlayerButtonObject.SetActive(false);
         }
+
+        gameCardCanvas.SetActive(true);
     }
 
     public void ClickContinue()
@@ -98,7 +107,7 @@ public class GameCard : MonoBehaviour
         {
             GameControl.diceButton.SetActive(true);
         }
-        else if(GameControl.activePlayer.balance < 0)
+        else if (GameControl.activePlayer.balance < 0)
         {
             GameControl.bankrotButton.SetActive(true);
         }
@@ -106,6 +115,7 @@ public class GameCard : MonoBehaviour
         {
             GameControl.endTurnButton.SetActive(true);
         }
+
         GameControl.endGameButton.SetActive(true);
         gameCardCanvas.SetActive(false);
         GameControl.isCardAppear = false;
@@ -254,7 +264,7 @@ public class GameCard : MonoBehaviour
             if (domCount > 0)
             {
                 sellDomButtonObject.SetActive(true);
-                sellDomButtonObject.GetComponentInChildren<Text>().text = "Продати будинок +$" + domReturnPrice[domCount - 1];
+                sellDomText.text = "Продати будинок +$" + domReturnPrice[domCount - 1];
             }
             else
             {
@@ -264,7 +274,7 @@ public class GameCard : MonoBehaviour
             if (domCount < domPrice.Length)
             {
                 buyDomButtonObject.SetActive(true);
-                buyDomButtonObject.GetComponentInChildren<Text>().text = "Придбати будинок -$" + domPrice[domCount];
+                buyDomText.text = "Придбати будинок -$" + domPrice[domCount];
             }
             else
             {
